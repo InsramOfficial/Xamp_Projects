@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery Website</title>
+    <link rel="stylesheet" href="p2.css">
+    <link rel="stylesheet" media="screen and (max-width:1170px)" href="phone.css">
+</head>
+
+<body>
+    <nav class="navigate">
+        <div class="logo">
+            <img src="logo.jpeg.jpg" alt="logo">
+        </div>
+        <ul>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#">About Us</a></li>
+            <li class="item"><a href="#">Services</a></li>
+            <li class="item"><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary">
+            Wellcome to MyOnlinemeal
+        </h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae eum, deserunt et, commodi labore excepturi
+            tempore ad nam facilis dolorem sint consectetur quibusdam! </p>
+        <button class="order">Order Now</button>
+    </section>
+
+    <section class="service-container">
+        <h1 class="ourservice">
+            Our Services
+        </h1>
+        <div id="services">
+            <div class="box">
+                <img src="burger.jpeg.jpg" alt="you">
+                <h2 class="foodorder">Food Catering</h2>
+                <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste nostrum, quibusdam
+                    facere saepe, velit ab facilis perspiciatis illum itaque fugiat error ex voluptas sunt Lorem, ipsum
+                    dolor sit amet consectetur adipisicing elit. Reprehenderit commodi atque iusto, molestias deleniti
+                    voluptatibus maiores quaerat sit expedita aperiam minima ut aliquid vitae rerum modi recusandae cum
+                    quia earum.</p>
+            </div>
+            <div class="box">
+                <img src="foodcat.jpg" alt="you">
+                <h2 class="foodorder">Bulk Ordering</h2>
+                <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste nostrum, quibusdam
+                    facere saepe, velit ab facilis perspiciatis illum itaque fugiat error ex voluptas sunt Lorem, ipsum
+                    dolor sit amet consectetur adipisicing elit. Reprehenderit commodi atque iusto, molestias deleniti
+                    voluptatibus maiores quaerat sit expedita aperiam minima ut aliquid vitae rerum modi recusandae cum
+                    quia earum.</p>
+            </div>
+            <div class="box">
+                <img src="foodord.png" alt="you">
+                <h2 class="foodorder">Food Ordering</h2>
+                <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste nostrum, quibusdam
+                    facere saepe, velit ab facilis perspiciatis illum itaque fugiat error ex voluptas sunt Lorem, ipsum
+                    dolor sit amet consectetur adipisicing elit. Reprehenderit commodi atque iusto, molestias deleniti
+                    voluptatibus maiores quaerat sit expedita aperiam minima ut ali.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="client-section">
+        <h1 id="ourclients">
+            Our Clients
+        </h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="apple.png" alt="logo">
+            </div>
+            <div class="client-item">
+                <img src="skype.png" alt="logo">
+            </div>
+            <div class="client-item">
+                <img src="telegram.png" alt="logo">
+            </div>
+            <div class="client-item">
+                <img src="hp.png" alt="logo">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="conts">Order Now</h1>
+        <div id="contact-box">
+            <form action="db.php" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="Name" id="Name" required placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="gef">Food Name:</label>
+                    <input type="text" name="Food_Name" id="Food_Name" required placeholder="Enter Your Food Name">
+                </div>
+                <div class ="form-group">
+                    <label for="jash">Phone Number:</label>
+                    <input type="phone" name="Phone_number" id="Phone_number" required placeholder="Enter Your Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="kash">Address:</label><br>
+                    <input type="text" name="Address" id="Address" style="margin-bottom: 10px;" placeholder="Enter Your Address here">
+                </div>
+                
+                <div class="form-group">
+                    <input type="submit" value="Submit" style="background-color: brown; color: white; padding: 10px 20px; border: none; border-radius: 10px; font-size: 16px; cursor: pointer;">
+
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="foty">
+            Copyright &copy; www.MyOnlineMeal.com. All rights Reserved!
+        </div>
+    </footer>
+</body>
+
+</html>
